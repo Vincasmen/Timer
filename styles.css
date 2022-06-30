@@ -1,6 +1,14 @@
 body {
   margin: 0rem;
   padding: 0rem;
+  background-color: rgb(250, 240, 202);
+  color: rgb(13, 59, 102);
+}
+
+.timer-heading {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(249, 87, 56);
 }
 
 .timer {
@@ -11,5 +19,13 @@ body {
 }
 
 .startBtn {
+  display: flex;
   border-radius: 15px;
+  border: none;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(244, 211, 94);
 }
