@@ -19,13 +19,12 @@ body {
 }
 
 .startBtn {
-  display: flex;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 15px;
   border: none;
   background-color: transparent;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   cursor: pointer;
   background-color: rgb(244, 211, 94);
 }
