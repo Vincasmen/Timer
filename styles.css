@@ -28,3 +28,13 @@ body {
   cursor: pointer;
   background-color: rgb(244, 211, 94);
 }
+.resetBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: rgb(244, 211, 94);
+}
